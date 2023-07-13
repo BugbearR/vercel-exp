@@ -1,0 +1,15 @@
+{
+    "name": "vercel-exp",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "dbaeumer.vscode-eslint",
+                "firsttris.vscode-jest-runner"
+            ]
+        }
+    }
+}
